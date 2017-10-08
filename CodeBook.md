@@ -1,10 +1,10 @@
-GENERAL DESCRIPTION:
+# GENERAL DESCRIPTION:
 
 This CodeBook aims at describing the main variables appearing in the
 script "run_analysis.R" and the actions taken at the different
 steps.
 
-MAIN VARIABLES:
+# MAIN VARIABLES:
 
 dframe_test: Data frame that contains all test data
 dframe_train: Data frame that contains all train data
@@ -13,7 +13,7 @@ mean_std_data: Data frame that only contains columns from dframe which feature n
 cleandframe: Data frame that contains "Subject","Activity" and data from mean_std_data with
 tidydataframe: Data frame that contains the average of each feature for each "Subject" and "Activity" in cleandframe
 
-DATA MANIPULATION:
+# DATA MANIPULATION:
 
 1- Merges the training and the test sets to create one data set.
 
